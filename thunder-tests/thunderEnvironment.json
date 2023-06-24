@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "c86ac64c-47d6-43ac-8810-008b11ffcf19",
+    "name": "local",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2023-05-29T05:47:15.206Z",
+    "modified": "2023-05-29T05:47:15.206Z",
+    "data": [
+      {
+        "name": "host",
+        "value": "http://localhost:8080/api"
+      }
+    ]
+  }
+]

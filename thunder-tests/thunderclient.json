@@ -1,0 +1,78 @@
+[
+  {
+    "_id": "9f456b80-6fae-411c-a428-0a966cef1772",
+    "colId": "da293788-25fb-45f8-aec8-49a5511c6f33",
+    "containerId": "",
+    "name": "init game",
+    "url": "{{host}}/match_init",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2023-05-29T05:46:49.591Z",
+    "modified": "2023-06-24T06:32:59.431Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"key1\":\"value1\",\n  \"key2\":\"value2\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "fab94fe0-9c50-4ae9-b134-452d45e22ec9",
+    "colId": "da293788-25fb-45f8-aec8-49a5511c6f33",
+    "containerId": "",
+    "name": "match_join",
+    "url": "{{host}}/match_init",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2023-06-24T06:34:40.766Z",
+    "modified": "2023-06-24T06:34:40.766Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"key1\":\"value1\",\n  \"key2\":\"value2\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "2b9ffa41-fcb2-4506-ae0a-a61b58c171e3",
+    "colId": "da293788-25fb-45f8-aec8-49a5511c6f33",
+    "containerId": "",
+    "name": "match_leave",
+    "url": "{{host}}/match_loop",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2023-06-24T06:35:31.790Z",
+    "modified": "2023-06-24T06:36:30.577Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"key1\":\"value1\",\n  \"key2\":\"value2\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "2631a6f4-b12d-46a3-85f1-33a89a338b6f",
+    "colId": "da293788-25fb-45f8-aec8-49a5511c6f33",
+    "containerId": "",
+    "name": "match_terrminat",
+    "url": "{{host}}/match_terrminat",
+    "method": "POST",
+    "sortNum": 40000,
+    "created": "2023-06-24T06:36:42.758Z",
+    "modified": "2023-06-24T06:36:58.461Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"key1\":\"value1\",\n  \"key2\":\"value2\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]

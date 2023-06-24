@@ -4,7 +4,7 @@ const namespace = "routes";
 
 declare module "actionhero" {
   export interface ActionheroConfigInterface {
-    [namespace]: ReturnType<typeof DEFAULT[typeof namespace]>;
+    [namespace]: ReturnType<(typeof DEFAULT)[typeof namespace]>;
   }
 }
 
@@ -15,6 +15,13 @@ export const DEFAULT: { [namespace]: () => RoutesConfig } = {
         { path: "/status", action: "status" },
         { path: "/swagger", action: "swagger" },
         { path: "/createChatRoom", action: "createChatRoom" },
+      ],
+      post: [
+        { path: "/match_init", action: "MatchInit" },
+        { path: "/match_join", action: "MatchJoin" },
+        { path: "/match_leave", action: "MatchLeave" },
+        { path: "/match_loop", action: "MatchLoop" },
+        { path: "/match_terrminat", action: "MatchTerminate" },
       ],
 
       /* ---------------------
